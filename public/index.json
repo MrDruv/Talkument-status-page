@@ -2,10 +2,10 @@
   "is": "index",
   "cStateVersion": "6.0.1",
   "apiVersion": "2.0",
-  "title": "Eggsample Status",
+  "title": "Talkument",
   "languageCodeHTML": "en",
   "languageCode": "en",
-  "baseURL": "http://localhost:1313/",
+  "baseURL": "//localhost:1313/",
   "description": "We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.",
   "summaryStatus": "ok",
   "categories": [
@@ -37,7 +37,7 @@
         "title": "Maintenance Announcement",
         "createdAt": "2024-02-24 10:35:00 +0000 UTC",
         "lastMod": "2021-10-10 17:02:38 +0300 +0300",
-        "permalink": "http://localhost:1313/issues/2024-02-24-maintenance-window/",
+        "permalink": "//localhost:1313/issues/2024-02-24-maintenance-window/",
         "affected": [],
         "filename": "2024-02-24-maintenance-window.md"
       }
@@ -45,26 +45,8 @@
   "systems": [
     
       {
-        "name": "Gateway",
-        "category": "North Coast",
-        
-        "status": "ok",
-        
-        "unresolvedIssues": []
-        
-      },
-      {
-        "name": "Backup Gateway",
-        "category": "North Coast",
-        
-        "status": "ok",
-        
-        "unresolvedIssues": []
-        
-      },
-      {
-        "name": "Website",
-        "description": "The web frontend for the application.",
+        "name": "Talkument Dashboard",
+        "description": "Main frontend for users",
         "category": "Uncategorized",
         
         "status": "ok",
@@ -73,18 +55,8 @@
         
       },
       {
-        "name": "API",
-        "description": "The guts of the application.",
-        "category": "Uncategorized",
-        
-        "status": "ok",
-        
-        "unresolvedIssues": []
-        
-      },
-      {
-        "name": "Media Proxy",
-        "description": "This is the service responsible for serving images, audio, and video. It is reliant on our CDN.",
+        "name": "Talkument API",
+        "description": "Backend powering the app",
         "category": "Uncategorized",
         
         "status": "ok",
@@ -96,7 +68,7 @@
   
 
   "buildDate": "2025-09-18",
-  "buildTime": "08:29",
+  "buildTime": "17:20",
   "buildTimezone": "IST",
   "colorBrand": "#0a0c0f",
   "colorOk": "#008000",
@@ -104,6 +76,6 @@
   "colorDown": "#e60000",
   "colorNotice": "#24478f",
   "alwaysKeepBrandColor": "true",
-  "logo": "http://localhost:1313/logo.png",
+  "logo": "//localhost:1313/logo.png",
   "googleAnalytics": "UA-00000000-1"
 }

@@ -2,7 +2,7 @@
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       
-      <title>Eggsample Status</title>
+      <title>Talkument Status</title>
       <link>http://localhost:1313/</link>
       <description>Incident history</description>
       <generator>github.com/cstate</generator>
